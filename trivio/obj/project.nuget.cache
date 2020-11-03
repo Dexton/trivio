@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HpQ2FymMGwqSBblkDeV6iTywr6yT7Dgbacene1fkLfjdrG0i02rvqu20v31rXFay+HZKYsex3+yyVXztVNvTWw==",
+  "success": true,
+  "projectFilePath": "/home/arnthor/projects/trivio-app/trivio/trivio.csproj",
+  "expectedPackageFiles": [
+    "/home/arnthor/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

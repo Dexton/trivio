@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/trivio.csproj",
+                "${workspaceFolder}/trivio/trivio.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/trivio.csproj",
+                "${workspaceFolder}/trivio/trivio.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,11 +32,21 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/trivio.csproj",
+                "${workspaceFolder}/trivio/trivio.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        }
+        },
+        {
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/trivio.Tests/trivio.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
     ]
 }
