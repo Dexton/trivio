@@ -12,7 +12,7 @@ export default class App extends Component {
     return (
       <Layout>
         <Row className={"py-lg-5 justify-content-center"}>
-          <h1 className="display-1">Title?</h1>
+          <h1 className="display-1">Trivio</h1>
         </Row>
         <Row className={"py-lg-5"}>
           <Search />
