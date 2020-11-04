@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -24,7 +26,7 @@ namespace trivio.Clients
         }
 
         public bool IsApplicable(string word) {
-            return _settings.Countries.Contains(word);
+            return _settings.Countries.Contains(word, StringComparer.OrdinalIgnoreCase);
         }
         public async Task<string> GetFact(string word)
         {
